@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+published: false
+---
+<div class="mt1">
+  {% for post in site.posts %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="no-underline">
+      <h3 class="h1 black mb0">{{ post.title }}</h3>
+    </a>
+    <span class="h6 gray">{{ port.date | date: "%b %-d, %Y" }}</span>
+    <p class="h3 mt2">{{ post.excerpt }}</p>
+  {% endfor %}
+</div>
