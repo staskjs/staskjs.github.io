@@ -9,7 +9,12 @@
 
   <div class="container py4">
     <div class="w75-m h3">
-      {{ content }}
+      {% if page.collection == 'posts' %}
+      <h1>{{ page.title }}</h1>
+      {% endif %}
+      <article>
+        {{ content }}
+      </article>
     </div>
   </div>
 
