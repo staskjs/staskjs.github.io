@@ -11,9 +11,10 @@ email: gilbert_90@mail.ru
 description: > # this means to ignore newlines until "baseurl:"
   Professional web developer with a passion for Ruby on Rails
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://karpov.co.vu" # the base hostname & protocol for your site
+url: "http://stanislavkarpov.co.vu" # the base hostname & protocol for your site
 twitter_username: staskjs
 github_username:  staskjs
+linkedin_username:  karpovstas
 author: Stanislav Karpov
 
 # Build settings
