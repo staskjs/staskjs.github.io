@@ -433,6 +433,17 @@ pre {
     }
 }
 
+@media (max-width:32rem) {
+    .h3 {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 80%;
+    }
+}
+
+
 @media screen and (min-width:32rem) {
     .w75-m {
         width: 75%;
@@ -594,13 +605,19 @@ html {
     font-size: 16px
 }
 
+@media (min-width:32em) {
+    .container {
+        width: 60%;
+    }
+}
+
 @media (min-width:52em) {
     html {
         font-size: 20px
     }
-    .container {
-        width: 90%;
-    }
+    /*.container {*/
+        /*width: 90%;*/
+    /*}*/
 }
 
 p {
@@ -621,9 +638,9 @@ pre>code {
     background-color: transparent
 }
 
-.container {
-    width: 60%;
-}
+/*.container {*/
+    /*width: 60%;*/
+/*}*/
 
 .no-underline,
 .no-underline:active,
