@@ -165,6 +165,10 @@ h6 {
     letter-spacing: .2em
 }
 
+.mt0 {
+    margin-top: 0
+}
+
 .mb0 {
     margin-bottom: 0
 }
@@ -225,7 +229,7 @@ h6 {
 }
 
 .container {
-    max-width: 64em;
+    /*max-width: 64em;*/
     margin-left: auto;
     margin-right: auto
 }
@@ -594,6 +598,9 @@ html {
     html {
         font-size: 20px
     }
+    .container {
+        width: 90%;
+    }
 }
 
 p {
@@ -615,7 +622,7 @@ pre>code {
 }
 
 .container {
-    width: 42rem;
+    width: 60%;
 }
 
 .no-underline,
