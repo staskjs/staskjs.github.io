@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /ctrlh
 ---
 
 I am constantly using Vim as my main editor and I also recently integrated tmux into my workflow.
