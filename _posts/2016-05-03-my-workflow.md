@@ -7,8 +7,10 @@ permalink: /workflow
 
 Since I started my developer career, I have always been using powerful tools
 like RubyMine or Webstorm in my regular workflow.  They were providing me with
-comfortable environment and I liked embedded Git client very much. But there was
+comfortable environment and I pretty much enjoyed embedded Git client. But there was
 a problem...
+
+## Problem
 
 Because of the fact that I am using more than one computer in my work, it
 becomes very hard to keep the same environment on both of them.  If I tweak it
@@ -28,12 +30,12 @@ So I gave up this option.
 
 ## Solution 2
 
-And then I asked myself why can't I work with the same VPS, but right inside the
+Then I asked myself why can't I work with the same VPS, but right inside the
 terminal. I don't have to have all those modern and fancy editors to effectively
 work with code. So I decided to try and learn vim. I already used vim from time
-to time and I knew very few basic commands. I still used to think vim was a
-super hardcore editor too hard to use. But I was curious enough to inverstigate
-why.
+to time and I knew very few basic commands. But I still used to think vim was a
+super hardcore editor too hard to learn. On the other point I was curious enough
+to try it out.
 
 ## Vim
 
