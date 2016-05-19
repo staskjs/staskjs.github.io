@@ -652,3 +652,30 @@ pre>code {
 .post-date {
     font-size: 0.875rem;
 }
+
+.icon.icon-small {
+    > svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.project {
+    .title {
+        font-weight: 700;
+        position: relative;
+        margin-bottom: 1.5em;
+        display: inline-block;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 2em;
+            left: 0;
+            width: 3em;
+            height: 3px;
+            background-color: #ECEFF1;
+        }
+    }
+
+    margin-bottom: 4em;
+}

@@ -1,1 +1,4 @@
-<a target="_blank" href="https://github.com/{{ include.username }}" class="no-underline"><span class="icon icon--github">{% include icon-github.svg %}</span></a>
+<a target="_blank" class="no-underline {{ include.a-class }}"
+    href="https://github.com/{{ include.username }}/{{ include.repo }}">
+  <span class="icon icon--github {{ include.icon-class }}">{% include icon-github.svg %}</span>
+</a>
