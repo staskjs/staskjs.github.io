@@ -26,7 +26,7 @@ computers I work with) and I came up with an idea to use VPS with installed VNC
 server and xfce on it, to which I can connect remotely. At first glance it
 sounded as a reasonable idea, but ultimately this solution did not for me work at all.
 
-So I gave up this option.
+I gave up this option.
 
 ## Solution 2
 
